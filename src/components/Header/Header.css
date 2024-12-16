@@ -1,0 +1,63 @@
+/* AppBar Styles */
+.header-app-bar {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 1rem;
+    box-shadow: none;
+    /* background-color: aliceblue; */
+  }
+  
+  /* Toolbar Styles */
+  .header-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo Styles */
+  .header-logo {
+    font-weight: bold;
+    color: #e91e63; /* Pink color for branding */
+    font-size: 1.5rem;
+  }
+  
+  /* Search Bar Styles */
+  .header-search-bar {
+    flex-grow: 1;
+    max-width: 50%;
+    margin: 0 1rem;
+  }
+  
+  /* Menu Container */
+  .header-menu-container {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  /* Menu Link Styles */
+  .header-menu-link {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+  }
+  
+  .header-menu-link:hover {
+    color: gray;
+  }
+  
+  /* Active Link Styles */
+  .active-link {
+    color: #1976d2; /* Material UI Primary Blue */
+    font-weight: bold;
+  }
+  
+  /* Icon Styles */
+  .header-icon {
+    font-size: 1.2rem;
+  }
+  
